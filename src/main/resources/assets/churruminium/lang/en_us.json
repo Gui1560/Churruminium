@@ -1,3 +1,7 @@
 {
-    "item.churruminium.churruminium_ingot": "Churruminium ingot"
+    "item.churruminium.churruminium_ingot": "Churruminium ingot",
+
+    "block.churruminium.churruminium_block": "Block of Churruminium",
+    "block.churruminium.churruminium_ore": "Churruminium Ore",
+    "block.churruminium.deepslate_churruminium_ore": "Deepslate Churruminium Ore"
 }
