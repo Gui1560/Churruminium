@@ -10,8 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
-    public static final DeferredRegister<Item> ITEMS = 
-            DeferredRegister.create(ForgeRegistries.ITEMS, Churruminium.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Churruminium.MOD_ID);
 
         public static final RegistryObject<Item> CHURRUMINIUM_INGOT = ITEMS.register("churruminium_ingot",
         () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));

@@ -1,5 +1,6 @@
 package com.github.gui1560.churruminium;
 
+import com.github.gui1560.churruminium.block.ModBlocks;
 import com.github.gui1560.churruminium.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Blocks;
@@ -26,6 +27,7 @@ public class Churruminium
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
 
         // Register the commonSetup method for modloading
